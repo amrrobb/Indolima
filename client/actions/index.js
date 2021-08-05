@@ -31,8 +31,6 @@ export const registerUser = async (input) => {
             method: 'POST', 
             data: dataRegister
         })
-
-        localStorage.access_token = 'loginSuccess'
         return res
 
 
